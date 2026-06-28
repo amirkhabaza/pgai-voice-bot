@@ -23,6 +23,9 @@ That's it. The script starts the Flask webhook server, opens an ngrok tunnel, au
 
 **To run a different patient scenario:** edit `PATIENT_SYSTEM_PROMPT` at the top of `server.py`, then run `bash run.sh` again.
 
+> **Windows users:** Run the three steps manually — `python server.py` in one terminal, 
+> `ngrok http 5000` in another, then set `NGROK_URL` in your environment and run `python main.py`.
+
 ## Environment Variables
 
 Copy `.env.example` to `.env` and fill in:
