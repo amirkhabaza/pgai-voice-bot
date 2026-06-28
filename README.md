@@ -1,120 +1,57 @@
 # PGAI Voice Bot — Patient Simulator
 
-An automated voice bot that calls the Pretty Good AI test line (+1-805-439-8008), simulates realistic patient conversations using Claude as the patient brain, and records/transcribes every call for bug analysis.
-
-## Architecture
-
-See `ARCHITECTURE.md` for a full explanation of design decisions.
-
-## Requirements
-
-- Python 3.10+
-- A Twilio account (paid, not trial) with a voice-capable phone number
-- A Deepgram account (free tier sufficient)
-- An Anthropic API key
-- ngrok (for local webhook tunneling)
+An automated voice bot that calls the Pretty Good AI test line, simulates realistic patient conversations using Claude as the patient brain, and records + transcribes every call for bug analysis.
 
 ## Setup
 
-### 1. Clone the repo
+**Prerequisites:** Python 3.10+, [ngrok](https://ngrok.com) installed and authenticated, Twilio paid account.
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/pgai-voice-bot.git
 cd pgai-voice-bot
-```
-
-### 2. Install dependencies
-
-```bash
 pip install -r requirements.txt
+cp .env.example .env   # then fill in your credentials
 ```
 
-### 3. Configure environment variables
+## Run
 
 ```bash
-cp .env.example .env
+bash run.sh
 ```
 
-Edit `.env` and fill in your credentials:
+That's it. The script starts the Flask webhook server, opens an ngrok tunnel, auto-detects the public URL, and places the call. Watch the terminal for the live conversation. Transcripts save automatically to `transcripts/` when each call ends.
 
-```
-TWILIO_ACCOUNT_SID=ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-TWILIO_AUTH_TOKEN=your_auth_token_here
-TWILIO_PHONE_NUMBER=+1XXXXXXXXXX
-TARGET_NUMBER=+18054398008
-DEEPGRAM_API_KEY=your_deepgram_key_here
-ANTHROPIC_API_KEY=your_anthropic_key_here
-```
+**To run a different patient scenario:** edit `PATIENT_SYSTEM_PROMPT` at the top of `server.py`, then run `bash run.sh` again.
 
-### 4. Start ngrok
+## Environment Variables
 
-In a dedicated terminal:
+Copy `.env.example` to `.env` and fill in:
 
-```bash
-ngrok http 5000
-```
-
-Copy the `https://xxxx.ngrok-free.app` URL — you'll need it in the next step.
-
-### 5. Configure the webhook URL
-
-Open `main.py` and set your ngrok URL:
-
-```python
-NGROK_URL = "https://your-ngrok-url.ngrok-free.app"
-```
-
-### 6. Run
-
-Open two terminals:
-
-**Terminal 1 — start the webhook server:**
-```bash
-python server.py
-```
-
-**Terminal 2 — place a call:**
-```bash
-python main.py
-```
-
-That's it. Watch Terminal 1 for the live conversation. Transcripts auto-save to `transcripts/` when each call ends.
-
-## Changing Scenarios
-
-To run a different patient scenario, edit the `PATIENT_SYSTEM_PROMPT` variable at the top of `server.py`, save the file (Flask auto-reloads), then run `python main.py` again.
-
-## Output
-
-- `transcripts/<CallSID>.json` — full conversation history per call (both sides)
-- Recording URL printed to console after each call (Twilio-hosted MP3)
+| Variable | Description |
+|----------|-------------|
+| `TWILIO_ACCOUNT_SID` | Twilio Account SID (starts with AC) |
+| `TWILIO_AUTH_TOKEN` | Twilio Auth Token |
+| `TWILIO_PHONE_NUMBER` | Your Twilio number in E.164 format |
+| `TARGET_NUMBER` | Test line: +18054398008 |
+| `DEEPGRAM_API_KEY` | Deepgram API key |
+| `ANTHROPIC_API_KEY` | Anthropic API key (Claude) |
 
 ## Project Structure
 
 ```
 pgai-voice-bot/
-├── server.py           # Flask webhook server (STT + LLM + TTS logic)
-├── main.py             # Places outbound calls via Twilio
-├── .env                # Your credentials (never commit this)
-├── .env.example        # Template showing required variables
+├── run.sh              # Single-command launcher
+├── server.py           # Flask webhook — STT + Claude + TTS loop
+├── main.py             # Places outbound call via Twilio
+├── .env.example        # Credentials template
 ├── requirements.txt    # Python dependencies
-├── transcripts/        # Auto-generated call transcripts (JSON)
-├── recordings/         # Downloaded MP3 recordings (if fetched)
-├── BUG_REPORT.md       # Documented issues found during testing
-└── ARCHITECTURE.md     # Design decisions and system overview
+├── README.md
+├── ARCHITECTURE.md     # Design decisions
+├── BUG_REPORT.md       # Issues found during testing
+├── transcripts/        # Auto-saved call transcripts (JSON)
+└── recordings/         # MP3 recordings of all calls
 ```
-
-## Environment Variables Reference
-
-| Variable | Description |
-|----------|-------------|
-| `TWILIO_ACCOUNT_SID` | Your Twilio Account SID (starts with AC) |
-| `TWILIO_AUTH_TOKEN` | Your Twilio Auth Token |
-| `TWILIO_PHONE_NUMBER` | Your Twilio phone number in E.164 format |
-| `TARGET_NUMBER` | The test line to call (+18054398008) |
-| `DEEPGRAM_API_KEY` | Deepgram API key for transcription |
-| `ANTHROPIC_API_KEY` | Anthropic API key for Claude (patient brain) |
 
 ## Cost Estimate
 
-Typical cost for 10 calls: under $5 total across all APIs.
+Under $5 total for 10 calls across all APIs.
