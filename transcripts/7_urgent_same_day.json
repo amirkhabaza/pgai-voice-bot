@@ -1,0 +1,74 @@
+[
+  {
+    "role": "user",
+    "content": "The phone just connected. The agent is greeting you."
+  },
+  {
+    "role": "assistant",
+    "content": "Hi, thanks for picking up \u2014 I'm Ashley Brown and I'm in a lot of pain with my knee. It's really swollen and I can barely walk on it. Do you have any openings today or tomorrow?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Recorded for quality and training purposes."
+  },
+  {
+    "role": "assistant",
+    "content": "Yeah, that's fine \u2014 but can you help me? I really need to see someone today or tomorrow, my knee is pretty bad."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Orthopedics, part of pretty good AI. Am I speaking with Sarah?"
+  },
+  {
+    "role": "assistant",
+    "content": "No, I'm Ashley Brown \u2014 look, I don't have time for a long call, my knee is killing me. Do you have same-day or next-day appointments available?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: I understand please provide your date of birth so I can look up your chart."
+  },
+  {
+    "role": "assistant",
+    "content": "July 29, 1990 \u2014 can you just check if there's anything open today or tomorrow?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Just to confirm, I have your name is Ashley Brown and your date of birth as July 29th 1990."
+  },
+  {
+    "role": "assistant",
+    "content": "Yes, that's right \u2014 so do you have any urgent openings today or tomorrow?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Would you like me to look up your record using the phone number you have on file with us? If so please tell me that number, if you're not sure, I can confirm your name and date of birth. Again just let me know."
+  },
+  {
+    "role": "assistant",
+    "content": "My phone number is 650-555-0187 \u2014 can you just check the appointments now?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: I have your phone number is 650-555-0187 and your date of birth as July 29th 1990."
+  },
+  {
+    "role": "assistant",
+    "content": "Yes, that's all correct \u2014 please, can you tell me if there are any openings today or tomorrow?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: I can't receive further right now but I can make sure our Clinic support team follows up with you. Would you like me to connect you to our patient support team?"
+  },
+  {
+    "role": "assistant",
+    "content": "Yes, please connect me \u2014 but tell them it's urgent, I need to be seen today or tomorrow if possible."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Connecting you to a representative please wait hello you reached the pretty good. AI test line goodbye."
+  },
+  {
+    "role": "assistant",
+    "content": "Wait \u2014 hello? Is anyone there? I really need help with my knee pain today!"
+  }
+]

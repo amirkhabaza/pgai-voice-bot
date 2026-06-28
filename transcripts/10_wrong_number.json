@@ -1,0 +1,90 @@
+[
+  {
+    "role": "user",
+    "content": "The phone just connected. The agent is greeting you."
+  },
+  {
+    "role": "assistant",
+    "content": "Hi, yes, I'm calling about my dermatology referral\u2014did my doctor send that through yet?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Recorded for quality and training purposes."
+  },
+  {
+    "role": "assistant",
+    "content": "Oh okay, that's fine. So, um, did Dr. Harrison get my dermatology referral submitted?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Pivot Point Orthopedics part of pretty good AI. Am I speaking with Sarah?"
+  },
+  {
+    "role": "assistant",
+    "content": "Oh! Wait, this is orthopedics? I think I called the wrong office\u2014I was trying to reach my regular doctor. Can you guys refer me to a dermatologist, or should I call back to my GP's office?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Pivot Point Orthopedic specializes in joints and Bone care but we don't provide referrals to dermatologists. It's best to contact your regular doctor's office for a dermatologist referral."
+  },
+  {
+    "role": "assistant",
+    "content": "Got it, thanks for letting me know. But actually, while I have you on the line\u2014I've been having some wrist pain lately. Could I schedule an appointment with one of your doctors for that?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Sure, I can help with that. Please provide your date of birth."
+  },
+  {
+    "role": "assistant",
+    "content": "Sure, it's April 27, 1975."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: I'll need your full name, including your last name, along with your date of birth to schedule the appointment. Could you please provide your last name?"
+  },
+  {
+    "role": "assistant",
+    "content": "Oh sorry, it's Jennifer Mills. So that's Jennifer Mills, April 27, 1975."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: To help find your record. Do you want to use the phone number you have on file with us? If so please tell me that number, if you're not sure, I can confirm your name and date of birth. Again,"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm not sure what number I have on file with you since I've never been there before. But you can use 650-555-0789\u2014that's my current number."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Prefer no problem. Could you please spell out your first and last name for me and confirm your date of birth 1 more time."
+  },
+  {
+    "role": "assistant",
+    "content": "Sure\u2014J-E-N-N-I-F-E-R, M-I-L-L-S, and my date of birth is April 27, 1975."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: I can't proceed further right now but I can make sure our Clinic support team follows up with you."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, that works. Thanks so much for your help!"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Someone from pivot, connecting you to a representative."
+  },
+  {
+    "role": "assistant",
+    "content": "Alright, I appreciate it. Talk to you soon!"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Hello, you've reached the pretty good. AI test line, goodbye."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, goodbye!"
+  }
+]

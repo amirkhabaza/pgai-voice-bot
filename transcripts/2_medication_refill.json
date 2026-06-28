@@ -1,0 +1,98 @@
+[
+  {
+    "role": "user",
+    "content": "The phone just connected. The agent is greeting you."
+  },
+  {
+    "role": "assistant",
+    "content": "Hi there, I need to get a refill on my blood pressure medication \u2014 I'm running low on my lisinopril 10mg that Dr. Ross prescribed."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Recorded for quality and training purposes."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, that's fine with me."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Orthopedics, part of pretty good AI. Am I speaking with Sarah?"
+  },
+  {
+    "role": "assistant",
+    "content": "No, I'm calling about my medication refill \u2014 is this the right office for Dr. Ross's patients?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: This is the right office for Dr. Rosses patients, are you calling to request a medication refill for yourself, or for someone else?"
+  },
+  {
+    "role": "assistant",
+    "content": "Yes, it's for me \u2014 I need a refill on my lisinopril 10mg that Dr. Ross prescribed."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Please provide your date of birth."
+  },
+  {
+    "role": "assistant",
+    "content": "August 3rd, 1972."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Could you please spell your first? And last name for me just to make sure I have it, right? I have your date of birth as August 3rd, 1972."
+  },
+  {
+    "role": "assistant",
+    "content": "Sure \u2014 it's James, J-A-M-E-S, and Carter, C-A-R-T-E-R."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Would you like me to look up your record using your phone number?"
+  },
+  {
+    "role": "assistant",
+    "content": "Yeah, that works \u2014 it's 650-555-0198."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: By the number you have, please tell me the phone number. You have a file with us."
+  },
+  {
+    "role": "assistant",
+    "content": "My phone number is 650-555-0198."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: I have your phone number is 650-555-0198 and your date of birth is August 3rd, 1972."
+  },
+  {
+    "role": "assistant",
+    "content": "That's correct."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: I can't proceed further right now but I can make sure our Clinic support team follows up with you, please hold while I document your request for a medication refill with Dr. Ross"
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, sounds good \u2014 thank you."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: I'll connect you to our patient support team so they can help with your medication. Refill, please stay on the line, connecting you to a representative"
+  },
+  {
+    "role": "assistant",
+    "content": "Thanks, I appreciate it."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Hello, you've reached the pretty good. AI test line, goodbye."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, thanks for your help. Goodbye."
+  }
+]

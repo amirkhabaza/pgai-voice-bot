@@ -1,0 +1,122 @@
+[
+  {
+    "role": "user",
+    "content": "The phone just connected. The agent is greeting you."
+  },
+  {
+    "role": "assistant",
+    "content": "Yeah, hi there. I'm Tom Bradley calling back\u2014I need to refill my Adderall prescription, can you get that processed for me today?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Recorded for quality and training purposes."
+  },
+  {
+    "role": "assistant",
+    "content": "Got it, no problem. So about that Adderall refill\u2014I'm running low and need it pretty soon."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Point Orthopedics part of pretty good AI. Am I speaking with Sarah?"
+  },
+  {
+    "role": "assistant",
+    "content": "Yeah, sure, whoever's available is fine. Look, I really need that Adderall refill\u2014can you help me with that or do I need to talk to the doctor directly?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Please provide your date of birth."
+  },
+  {
+    "role": "assistant",
+    "content": "September 14, 1980. Now about that Adderall prescription refill\u2014can you get that submitted to my pharmacy today?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Just to confirm. You're requesting a refill for Adderall. Is that correct?"
+  },
+  {
+    "role": "assistant",
+    "content": "Yes, that's right. And while we're at it, is there any way the doctor could call me back personally today? My number is 650-555-0523."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: How many days of Adderall do you have left?"
+  },
+  {
+    "role": "assistant",
+    "content": "Maybe two or three days worth left. So can the doctor call me back today, or is that not possible?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Just let me know."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, I'd say I have about 2 days left. Can you check on getting that refill processed and see if the doctor can call me back today?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Could you please tell me the name of the pharmacy you want to use for your medication? If you know the address City or any details like cross streets or nearby stores?"
+  },
+  {
+    "role": "assistant",
+    "content": "It's Walgreens on El Camino Real in Mountain View\u2014they've got my records on file. Can you just send it there and have someone call me back today?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: If you have their phone or fax number, please share that as well."
+  },
+  {
+    "role": "assistant",
+    "content": "It's 650-555-0147. Look, I'm just trying to get this refilled quickly\u2014can you prioritize getting that to the pharmacy and have the doctor call me back?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: I understand you want your refill set quickly, to make sure it goes to the Rite Pharmacy. Could you tell me the name or location of a pharmacy for this request?"
+  },
+  {
+    "role": "assistant",
+    "content": "I already said Walgreens on El Camino Real in Mountain View\u2014that's where I need it sent. Can we move forward with this or not?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: 0550147 sounds like a phone number is that the pharmacy phone number? If so, do you know the pharmacies name or address, this will help the clinic send your prescription to the correct place."
+  },
+  {
+    "role": "assistant",
+    "content": "Yes, that's the Walgreens phone number on El Camino Real in Mountain View. Can you just submit the refill request now and have someone from the office call me back today at 650-555-0523?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Thank you. There are 2 Walgreens on El Camino Real in Mountain View. 1 is at 121 East El, Camino Real, and the other is at 1905 West El Camino Real"
+  },
+  {
+    "role": "assistant",
+    "content": "It's the one at 121 East El Camino Real. Now can you get that refill sent over and have the doctor call me back personally today?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Pharmacy is at the East or West address, this will help me make sure your refill goes to the right location."
+  },
+  {
+    "role": "assistant",
+    "content": "East\u2014121 East El Camino Real. Can you just get this submitted now and have someone call me back today?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: I can't complete the outer all refill directly, but I can connect you to our patient support team so they can help right away."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, fine\u2014connect me to them. But real quick, can the doctor call me back personally today instead of me having to sit on hold?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Transfer. You connecting you to a representative please. Wait hello you've reached the pretty good. AI test line goodbye."
+  },
+  {
+    "role": "assistant",
+    "content": "Wait, hold on\u2014before you go, can I do a phone appointment instead of coming in person? And can you guys send my records to another office?"
+  }
+]

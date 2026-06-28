@@ -1,0 +1,66 @@
+[
+  {
+    "role": "user",
+    "content": "The phone just connected. The agent is greeting you."
+  },
+  {
+    "role": "assistant",
+    "content": "Hi there! I'm calling to find out your office hours \u2014 are you open on Saturdays by any chance?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: For quality and training purposes."
+  },
+  {
+    "role": "assistant",
+    "content": "Oh sure, that's fine with me. So, do you have Saturday hours available?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Point Orthopedics part of pretty good AI. Am I speaking with Sarah?"
+  },
+  {
+    "role": "assistant",
+    "content": "No, this is Linda Thompson calling. Can you tell me if you're open on Saturdays and what your address is?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Pinnacle Orthopedics is not open on Saturdays. Our clinic hours are Monday through Friday. Would you like the full address for the clinic?"
+  },
+  {
+    "role": "assistant",
+    "content": "Yes, please give me the address. And do you have a second location closer to Palo Alto? Also, what's the parking like there?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: The clinic address is 1. 1234 recovery way."
+  },
+  {
+    "role": "assistant",
+    "content": "Got it, 1234 Recovery Way. Is there a location closer to Palo Alto, and how's the parking situation?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: 787 there is free patient parking available in the surface lot in front of the building."
+  },
+  {
+    "role": "assistant",
+    "content": "Great, thank you! So just to confirm \u2014 do you have another location closer to Palo Alto, or is that the only one?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: We only have the Austin location at 1234 recovery. Way, Suite, 200."
+  },
+  {
+    "role": "assistant",
+    "content": "Perfect, thank you so much for the information. Have a good day!"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Closer to glad I could help. Let me know if you have any other questions."
+  },
+  {
+    "role": "assistant",
+    "content": "I will, thanks again! Bye now."
+  }
+]

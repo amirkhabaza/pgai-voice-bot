@@ -1,0 +1,82 @@
+[
+  {
+    "role": "user",
+    "content": "The phone just connected. The agent is greeting you."
+  },
+  {
+    "role": "assistant",
+    "content": "Yeah hey, I need to book an appointment \u2014 what times you got available this week?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Recorded for quality and training purposes, but thanks for calling Orthopedics."
+  },
+  {
+    "role": "assistant",
+    "content": "Yeah yeah I heard that, so can you just get me in or what?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Am I speaking with Sarah?"
+  },
+  {
+    "role": "assistant",
+    "content": "No, it's Kevin Park \u2014 look, I'm pressed for time, can we just schedule something?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Provide the full name and date of birth for the patient. You'd like to schedule for"
+  },
+  {
+    "role": "assistant",
+    "content": "Kevin Park, February 18, 1987 \u2014 and I need something this week, preferably tomorrow."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Just to confirm, I have your name as Kevin Park and your date of birth as February 18th. 1987"
+  },
+  {
+    "role": "assistant",
+    "content": "Yeah that's right, now what times do you have?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: 1 moment. While I check for available appointments this week."
+  },
+  {
+    "role": "assistant",
+    "content": "Sure, hurry up though \u2014 I gotta get back to work."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: To use your phone number to look up your record. If so, please tell me the number you have on file with us. If you're not sure, I can confirm your name and date of birth. Again, just let me know."
+  },
+  {
+    "role": "assistant",
+    "content": "It's 650-555-0634 \u2014 can we move this along?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: I have your phone number is 650-555-0634."
+  },
+  {
+    "role": "assistant",
+    "content": "Yeah that's it, so what appointments are open?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: This February."
+  },
+  {
+    "role": "assistant",
+    "content": "Wait, February? I need something THIS WEEK, not next month \u2014 what times you got available now?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: I can't schedule an appointment right now but I can connect you to our patient support team. Please stay on the line. Connecting you to a representative please wait hello you reached the pretty good. AI test line goodbye."
+  },
+  {
+    "role": "assistant",
+    "content": "Wait, hold on \u2014 are you still there? I didn't even get scheduled!"
+  }
+]

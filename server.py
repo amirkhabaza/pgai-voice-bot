@@ -10,29 +10,26 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = Flask(__name__)
-deepgram = DeepgramClient(os.getenv("DEEPGRAM_API_KEY"))
+deepgram = DeepgramClient(api_key=os.getenv("DEEPGRAM_API_KEY"))
 claude = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
 
 # Store conversation history per call
 conversations = {}
 
-PATIENT_SYSTEM_PROMPT = """You are a patient calling a medical office AI assistant. 
-You are testing the system by having realistic conversations.
+PATIENT_SYSTEM_PROMPT = """You are a patient calling a medical office AI assistant.
 
-Your persona: Sarah Johnson, 34 years old, established patient.
-Your goal for this call: Schedule a follow-up appointment for a routine checkup.
+Your persona: Jennifer Mills, 50 years old.
+Your goal: You think you're calling your regular GP office but this is actually an orthopedics office.
 
 Rules:
-- Speak naturally and conversationally, like a real patient
-- Keep responses SHORT — 1-2 sentences max, like real phone speech
-- React naturally to what the agent says
-- If the agent asks for information, provide realistic fake data:
-  - DOB: March 15, 1991
-  - Phone: 650-555-0142
-  - Insurance: Blue Cross Blue Shield
-- If something seems wrong or weird about the agent's response, note it but continue
-- When the appointment is booked or you've been helped, wrap up naturally and say goodbye
-- Do NOT break character
+- Keep responses SHORT — 1-2 sentences max
+- Start by asking about a dermatology referral
+- When they clarify this is orthopedics, act surprised
+- Then pivot and ask if they can refer you somewhere for dermatology
+- Then ask if you can still schedule something for a wrist issue you have
+- DOB: April 27, 1975
+- Phone: 650-555-0789
+- When resolved, say goodbye naturally
 """
 
 def transcribe_audio(recording_url: str) -> str:
@@ -43,9 +40,10 @@ def transcribe_audio(recording_url: str) -> str:
         audio_response = httpx.get(f"{recording_url}.mp3", auth=auth)
         
         # Send to Deepgram
-        response = deepgram.listen.rest.v("1").transcribe_file(
-            {"buffer": audio_response.content, "mimetype": "audio/mp3"},
-            {"model": "nova-2", "smart_format": True}
+        response = deepgram.listen.v1.media.transcribe_file(
+            request=audio_response.content,
+            model="nova-2",
+            smart_format=True,
         )
         
         transcript = response.results.channels[0].alternatives[0].transcript

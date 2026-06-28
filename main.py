@@ -22,5 +22,5 @@ def make_call(webhook_base_url: str):
 
 if __name__ == "__main__":
     # Replace with your ngrok URL each time you start ngrok
-    NGROK_URL = "https://YOUR-NGROK-URL-HERE.ngrok-free.app"
+    NGROK_URL = " https://flushingly-rawish-lilla.ngrok-free.dev"
     make_call(NGROK_URL)

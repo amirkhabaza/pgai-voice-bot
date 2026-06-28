@@ -1,0 +1,6 @@
+flask
+python-dotenv
+twilio
+anthropic
+httpx
+deepgram-sdk

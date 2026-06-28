@@ -1,0 +1,122 @@
+[
+  {
+    "role": "user",
+    "content": "The phone just connected. The agent is greeting you."
+  },
+  {
+    "role": "assistant",
+    "content": "Hi, thanks for picking up! I'm calling to see if you accept Aetna HMO insurance before I schedule an appointment."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Recorded for quality and training purposes."
+  },
+  {
+    "role": "assistant",
+    "content": "Got it, thanks for letting me know. So do you accept Aetna HMO?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Point Orthopedics part of pretty good AI. Am I speaking with Sarah?"
+  },
+  {
+    "role": "assistant",
+    "content": "Yes, hi Sarah! I'm David Kim calling as a new patient \u2014 do you guys take Aetna HMO insurance?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Please tell me your date of birth."
+  },
+  {
+    "role": "assistant",
+    "content": "Sure, it's May 10, 1996. But before we go further, can you confirm if you accept Aetna HMO?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Could you share your member ID number from your Aetna, HMO card?"
+  },
+  {
+    "role": "assistant",
+    "content": "I don't have it in front of me right now, but let me ask \u2014 does your office definitely accept Aetna HMO plans?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Plan is accepted."
+  },
+  {
+    "role": "assistant",
+    "content": "Great, thanks! Do you also accept Kaiser as a secondary insurance?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: No problem."
+  },
+  {
+    "role": "assistant",
+    "content": "Does that mean you do accept Kaiser as secondary, or no?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: If you."
+  },
+  {
+    "role": "assistant",
+    "content": "Sorry, I didn't catch that \u2014 do you accept Kaiser as a secondary insurance?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: I just be no worries though. If you have your member ID later, I can check your Aetna. HML plan for you. Is there anything else I can help with today?"
+  },
+  {
+    "role": "assistant",
+    "content": "Perfect, thanks! Do you have any new patient appointment availability coming up?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Yes, we do offer new patient appointments. Do you have a preferred day or time of day for your visit?"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm flexible \u2014 what days and times do you have available next week?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: We have openings throughout next week, would you prefer a morning or afternoon appointment?"
+  },
+  {
+    "role": "assistant",
+    "content": "Morning works better for me \u2014 what's the earliest slot you have available?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: This morning appointment I see is Wednesday July 8th at 9:45 a.m. with a breaker. Would you like to book that slot?"
+  },
+  {
+    "role": "assistant",
+    "content": "Yes, that works for me! Can you confirm my contact info \u2014 it's 650-555-0341, and my name is David Kim."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Thanks for letting me know, David. Are you calling to book a new patient appointment for yourself?"
+  },
+  {
+    "role": "assistant",
+    "content": "Yes, that's right \u2014 booking for myself for the Wednesday July 8th at 9:45 a.m. appointment. Can you get that confirmed for me?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: I'll need to verify your information before confirming the appointment. May I have your date of birth"
+  },
+  {
+    "role": "assistant",
+    "content": "May 10, 1996 \u2014 same DOB I gave earlier. Can you go ahead and confirm that appointment?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Your new patient appointment is confirmed for Wednesday, July 8th, at 9:45 a.m. with a Burker at Pivot Point Orthopedics."
+  },
+  {
+    "role": "assistant",
+    "content": "Perfect, thanks so much Sarah! I appreciate your help \u2014 I'll see you Wednesday at 9:45. Goodbye!"
+  }
+]

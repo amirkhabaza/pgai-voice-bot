@@ -1,0 +1,122 @@
+[
+  {
+    "role": "user",
+    "content": "The phone just connected. The agent is greeting you."
+  },
+  {
+    "role": "assistant",
+    "content": "Hello? Yes, hi... my daughter told me to call your office about something, but I'm not entirely sure what it was supposed to be. Something about setting an appointment, I think?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Recorded for quality and training purposes but thanks for calling to the point Orthopedic part of pretty good AI. Am I speaking with Sarah"
+  },
+  {
+    "role": "assistant",
+    "content": "No, no, I'm Robert \u2014 Robert Walsh. Is this the doctor's office? My daughter said I needed to call about... well, I'm not quite sure, actually. Maybe my knee? It's been bothering me some."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Yes, this is Pivot Point Orthopedics. We help with joint muscle and bone concerns."
+  },
+  {
+    "role": "assistant",
+    "content": "Oh, okay, that sounds right. Yes, my knee's been giving me trouble \u2014 hurts when I walk sometimes. Is that what my daughter wanted me to call about, you think?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: your knee, or for your"
+  },
+  {
+    "role": "assistant",
+    "content": "Sorry, what was that? Could you repeat that last part? My hearing isn't what it used to be."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Time, are you?"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm sorry, I'm having trouble hearing you. Could you speak up a bit? What were you asking me?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Are you calling about your?"
+  },
+  {
+    "role": "assistant",
+    "content": "Oh, yes \u2014 my knee! That's what's been bothering me. My daughter said to call, and I think it was about my knee pain."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Me or for someone else. That's okay. Whenever you're ready. Just let me know if you're calling about your own knee or for someone else."
+  },
+  {
+    "role": "assistant",
+    "content": "Oh! No, it's for me \u2014 Robert Walsh. It's my knee that's been hurting. I'm 78 years old, and my daughter thought I should get it checked out."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Please tell me your date of birth."
+  },
+  {
+    "role": "assistant",
+    "content": "March 3rd, 1947. That makes me 78 now."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Just to confirm, I have your name as Robert Walsh and your date of birth as March, 3rd 1947."
+  },
+  {
+    "role": "assistant",
+    "content": "Yes, that's right \u2014 Robert Walsh, March 3rd, 1947. That's correct."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: If so."
+  },
+  {
+    "role": "assistant",
+    "content": "Yes, that's all correct. So... what happens next?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Thank you. Could you please spell your first and last name for me?"
+  },
+  {
+    "role": "assistant",
+    "content": "Sure \u2014 R-O-B-E-R-T, and W-A-L-S-H. Robert Walsh."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: I have your phone number at 650-663-2777 and your date of birth as March, 3rd 1947."
+  },
+  {
+    "role": "assistant",
+    "content": "Well, my phone number is actually 650-555-0412, not that other one. But yes, March 3rd, 1947 is correct."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: I can't proceed further right now but I can make sure our Clinic support team follows up with you."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, that sounds fine. So they'll call me back about my knee then?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Due to our patient support team, connecting you to a representative."
+  },
+  {
+    "role": "assistant",
+    "content": "Alright, thank you. I'll wait to talk to someone then."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Hello, you've reached the pretty good. AI test line, goodbye."
+  },
+  {
+    "role": "assistant",
+    "content": "Oh, okay then. Goodbye."
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "role": "user",
+    "content": "The phone just connected. The agent is greeting you."
+  },
+  {
+    "role": "assistant",
+    "content": "*listens to the greeting*\n\nHi, yes, I'm calling to schedule a follow-up appointment with Dr. Martinez if she has any openings soon?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: For quality and training purposes."
+  },
+  {
+    "role": "assistant",
+    "content": "Oh okay, sure, that's fine."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Calling pivot point or how can I help you today?"
+  },
+  {
+    "role": "assistant",
+    "content": "Yeah, I'm just looking to schedule a routine checkup with Dr. Martinez \u2014 whenever she has an opening in the next few weeks would work for me."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Before we schedule your checkup, would you like to create a demo patient profile?"
+  },
+  {
+    "role": "assistant",
+    "content": "Um, I'm already a patient though \u2014 I've been seeing Dr. Martinez for a couple years now. Do I really need to create a new profile?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Last name to get started."
+  },
+  {
+    "role": "assistant",
+    "content": "Oh, it's Johnson \u2014 Sarah Johnson."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Your patient profile is set up in your date of birth is July 4th 2000 for demo purposes."
+  },
+  {
+    "role": "assistant",
+    "content": "Actually, that's not right \u2014 my date of birth is March 15th, 1991, not July 4th. Can you correct that in the system?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Let me update your date of birth to March 15th, 1991."
+  },
+  {
+    "role": "assistant",
+    "content": "Great, thanks for fixing that. So when can we look at getting me scheduled for that appointment?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Of that."
+  },
+  {
+    "role": "assistant",
+    "content": "I'm sorry, I didn't catch that \u2014 what did you say?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Committed a request to update your date of birth to March 15th."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, got it. So once that's updated, can we go ahead and find a time for my checkup?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: The clinic support. Would you still like to schedule your routine checkup? Now"
+  },
+  {
+    "role": "assistant",
+    "content": "Yes, absolutely \u2014 I'd like to schedule that routine checkup with Dr. Martinez. What days and times do you have available?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: I'll help you schedule a routine checkup. However, I don't see a doctor Martinez listed. It Point. Orthopedic or doctor Howser Dr. Ross and Dr. Bricker"
+  },
+  {
+    "role": "assistant",
+    "content": "Oh, I see \u2014 I guess Dr. Martinez might not be available. Um, can I schedule with Dr. Ross then? What times do you have open?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Instead."
+  },
+  {
+    "role": "assistant",
+    "content": "Sorry, I'm not sure what you mean \u2014 can you repeat that?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: There isn't a Dr. Martinez at Pivot Point, Orthopedics are available. Doctors are Dr. Howser Dr. Ross and Dr. Bricker"
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, got it \u2014 I must have been mistaken about the doctor's name. I'll go with Dr. Ross then. What appointment times do you have available?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Pick up with 1 of them. Would you prefer to see Dr? Howser Dr. Ross or Dr. Brooker for your routine. Checkup."
+  },
+  {
+    "role": "assistant",
+    "content": "I'll go with Dr. Ross \u2014 that works for me. What times do you have available?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: There are no openings with Dr. Ross, this week, would you like to look for appointments later in July? Or are you open to seeing another provider sooner?"
+  },
+  {
+    "role": "assistant",
+    "content": "Yeah, later in July works fine for me \u2014 whenever Dr. Ross has an opening then would be great."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: I don't see any openings with Dr, Ross yet, but I do have appointments with Dr. Lyakhovsky and Dr. Noah on Tuesday, July 7th."
+  },
+  {
+    "role": "assistant",
+    "content": "Hmm, okay \u2014 I'm not familiar with those doctors, but if that's what's available, I can do Tuesday, July 7th. What times do you have?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Or should I keep looking? Here are some options for Tuesday. July 7th, Draco is openings at 10:00 a.m. and 3:00 p.m."
+  },
+  {
+    "role": "assistant",
+    "content": "The 10:00 a.m. slot works for me \u2014 let's go with that one."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: At 11:00 a.m. at 11:30, a.m. would you like to book 1 of these or should I search for later dates?"
+  },
+  {
+    "role": "assistant",
+    "content": "Wait, I thought you said 10 a.m. was available? But okay, 11:00 a.m. works too \u2014 let's just book that one for Tuesday, July 7th."
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Your check out the schedule for Tuesday, July 7th at 11:00 a.m. with Dr. Kelly Noble at Pivot Point Orthopedics."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, so that's Tuesday, July 7th at 11:00 a.m. with Dr. Kelly Noble \u2014 got it. Is there anything else I need to do, or am I all set?"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: Your appointment is all set for July 7th at 11:00 a.m. with Dr. Noble is there anything else you'd like help with today?"
+  },
+  {
+    "role": "assistant",
+    "content": "No, that's everything \u2014 thanks for getting me scheduled. I'll see you on July 7th!"
+  },
+  {
+    "role": "user",
+    "content": "The agent said: You're all set for July 7th at 11:00 a.m. with Dr. Noble, have a great day."
+  },
+  {
+    "role": "assistant",
+    "content": "Thanks, you too \u2014 bye!"
+  }
+]
