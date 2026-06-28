@@ -1,24 +1,26 @@
-"""Makes the outbound call via Twilio."""
-
 import os
-
-from dotenv import load_dotenv
 from twilio.rest import Client
+from dotenv import load_dotenv
 
 load_dotenv()
 
-account_sid = os.environ["TWILIO_ACCOUNT_SID"]
-auth_token = os.environ["TWILIO_AUTH_TOKEN"]
-from_number = os.environ["TWILIO_PHONE_NUMBER"]
-to_number = os.environ["TARGET_NUMBER"]
-webhook_base_url = os.environ.get("WEBHOOK_BASE_URL", "http://localhost:5000")
+client = Client(
+    os.getenv("TWILIO_ACCOUNT_SID"),
+    os.getenv("TWILIO_AUTH_TOKEN")
+)
 
-client = Client(account_sid, auth_token)
+def make_call(webhook_base_url: str):
+    call = client.calls.create(
+        to=os.getenv("TARGET_NUMBER"),
+        from_=os.getenv("TWILIO_PHONE_NUMBER"),
+        url=f"{webhook_base_url}/answer",        # Twilio fetches TwiML from here
+        record=True,
+        recording_status_callback=f"{webhook_base_url}/recording",
+    )
+    print(f"Call initiated. SID: {call.sid}")
+    return call.sid
 
 if __name__ == "__main__":
-    call = client.calls.create(
-        to=to_number,
-        from_=from_number,
-        url=f"{webhook_base_url}/voice",
-    )
-    print(f"Call initiated: {call.sid}")
+    # Replace with your ngrok URL each time you start ngrok
+    NGROK_URL = "https://YOUR-NGROK-URL-HERE.ngrok-free.app"
+    make_call(NGROK_URL)
