@@ -6,6 +6,8 @@ from flask import Flask, request, Response
 from twilio.twiml.voice_response import VoiceResponse, Gather
 from deepgram import DeepgramClient
 from dotenv import load_dotenv
+import re
+
 
 load_dotenv()
 
@@ -31,6 +33,12 @@ Rules:
 - Phone: 650-555-0789
 - When resolved, say goodbye naturally
 """
+
+
+def clean_response(text: str) -> str:
+    """Remove stage directions Claude sometimes adds e.g. *listens to greeting*"""
+    text = re.sub(r'\*[^*]+\*', '', text)
+    return text.strip()
 
 def transcribe_audio(recording_url: str) -> str:
     """Download Twilio recording and transcribe with Deepgram."""
@@ -133,7 +141,7 @@ def agent_spoke():
     
     # If we got a transcript, generate patient response
     if agent_text:
-        patient_reply = get_claude_response(call_sid, agent_text)
+        patient_reply = clean_response(get_claude_response(call_sid, agent_text))
         
         # Check if conversation should end
         end_words = ["goodbye", "bye", "thank you for calling", "have a great day"]
