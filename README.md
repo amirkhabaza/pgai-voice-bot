@@ -39,6 +39,11 @@ Copy `.env.example` to `.env` and fill in:
 | `DEEPGRAM_API_KEY` | Deepgram API key |
 | `ANTHROPIC_API_KEY` | Anthropic API key (Claude) |
 
+## Loom Videos
+
+- [Walkthrough — Approach & What I Built](https://www.loom.com/share/6b5c8840b58045648f03da73882299f0)
+- [AI Debugging Session](https://www.loom.com/share/23cd441c1242400fa59ce1cbeb8a2c16)
+
 ## Project Structure
 
 ```
